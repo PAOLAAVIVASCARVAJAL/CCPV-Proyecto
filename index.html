@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css"> <!-- Enlace al CSS -->
+    <title>CCPV - Sistema de Cotizaciones</title>
+</head>
+<body>
+    <header>
+        <img src="assets/img/logo.png.png" alt="Logo CCPV" class="logo"> <!-- Asegúrate de que el archivo del logo esté correctamente guardado -->
+        <h1>Bienvenido al Sistema de Cotizaciones CCPV</h1>
+    </header>
+
+    <main>
+        <section class="about">
+            <h2>Acerca de Nosotros</h2>
+            <p>CCPV es un sistema para la creación y manejo de cotizaciones y cuentas de cobro para la empresa de servicios eléctricos.</p>
+        </section>
+
+        <section class="form-section">
+            <h2>Crear una Cotización</h2>
+            <form id="cotizacion-form">
+                <label for="cliente-nombre">Nombre del Cliente:</label>
+                <input type="text" id="cliente-nombre" name="cliente-nombre" required>
+
+                <label for="cliente-nit">NIT:</label>
+                <input type="text" id="cliente-nit" name="cliente-nit" required>
+
+                <label for="cliente-direccion">Dirección:</label>
+                <input type="text" id="cliente-direccion" name="cliente-direccion" required>
+
+                <button type="submit">Crear Cotización</button>
+            </form>
+        </section>
+
+        <section id="resultados">
+            <!-- Aquí se mostrarán los resultados de las cotizaciones -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CCPV - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="scripts/app.js"></script> <!-- Enlace al archivo JavaScript -->
+</body>
+</html>

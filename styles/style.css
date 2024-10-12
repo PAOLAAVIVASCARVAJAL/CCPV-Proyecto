@@ -1,0 +1,65 @@
+/* Estilo global */
+body {
+    background-color: #1a1a40; /* Fondo azul oscuro */
+    color: #ffffff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header y logo */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e2e6a; /* Un tono de azul más claro para el encabezado */
+}
+
+.logo {
+    max-width: 150px; /* Ajustar tamaño del logo */
+    margin-bottom: 10px;
+}
+
+/* Sección principal */
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+.form-section {
+    background-color: #3a3a8e; /* Un color diferente para destacar la sección */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input, button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #5050a5;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #40408e;
+}
+
+/* Estilos del footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2e2e6a;
+}
